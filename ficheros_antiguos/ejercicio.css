@@ -1,0 +1,21 @@
+.padre {
+    display:flex;
+    background-color: blue;
+    width:500px;
+    height: 500px;
+    flex-direction: row;
+    align-content: flex-end;
+    overflow-x: scroll;
+        
+}
+.hijo {
+    background-color: chartreuse;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px; 
+    flex-shrink: 0;
+}
+.abajo {
+margin-left: auto;
+align-items: flex-end;
+}
