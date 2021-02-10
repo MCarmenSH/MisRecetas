@@ -1,7 +1,11 @@
-* {box-sizing: border-box;
+* {
+    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif !important; 
   }
+body{
 
+    overflow-x: hidden;
+}
 a {
     text-decoration: none;
     color:inherit;
